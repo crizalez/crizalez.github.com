@@ -195,3 +195,35 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/*********************************************/
+/* Resume
+/*********************************************/
+
+#info { margin: 10 0 10 0; }
+
+ul.info { margin: 20 0 20 15; color: #333333; }
+
+#info h3 { margin: 20 0 0 20; color: #333333; }
+
+#contact { font-size: 10px; margin: 10 0 10 0 }
+    #contact h1 {
+        font-family: arial;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #444;
+        margin: 0 0 20 0;
+        padding: 0 0 0 0;
+        font-weight: 100;
+    }
+
+  #post li ul {
+    font-size: 85%;
+    margin: 0 0 0 40;
+  }
+  #post table {
+    width: 100%;
+    margin: 0 0 0 20;
+  }
+
