@@ -31,11 +31,10 @@ var WRInitTime=(new Date()).getTime();
   </div>
   
     <div id="home">
-      <h1>Blog Posts</h1>
+      <h1>Info</h1>
+        <li><span>CV</span> &raquo; <a href="html/cv.html"</li>
+        <li><span>Resume (english)</span> &raquo; <a href="html/resume.html"</li>
       <ul class="posts">
-        {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
       </ul>
 
       <h1>Interviews, Talks, Etc</h1>
