@@ -205,6 +205,10 @@ ul.posts {
 ul.info { margin: 20 0 20 15; color: #333333; }
 
 #info h3 { margin: 20 0 0 20; color: #333333; }
+  #home li ul {
+    font-size: 85%;
+    margin: 0 0 0 40;
+  }
 
 #contact { font-size: 10px; margin: 10 0 10 0 }
     #contact h1 {
@@ -227,3 +231,16 @@ ul.info { margin: 20 0 20 15; color: #333333; }
     margin: 0 0 0 20;
   }
 
+  #post td {
+    height: 30px;
+    border-bottom: 1px solid #dcc;
+  }
+
+  #post td.date {
+    width: 100px;
+    text-align: right;
+    padding: 0 10 0 0;
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+ }
